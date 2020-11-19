@@ -14,6 +14,8 @@ function SidebarOption({Icon, title, id, addChannelOption}) {
             history.push('title')
         }
     };
+    
+    console.log(history)
 
     const addChannel = () => {
         const channelName = prompt('Please enter the channel name')

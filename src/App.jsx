@@ -20,7 +20,6 @@ function App() {
             <Header />
             <div className="app__body">
               <Sidebar />
-
               <Switch>
                 <Route path="/room/:roomId">
                   <Chat />
